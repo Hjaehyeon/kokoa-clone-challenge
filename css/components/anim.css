@@ -1,0 +1,47 @@
+@keyframes rotateWheel {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+ @keyframes startScreen {
+   from{
+    transform: none;
+   }
+   to {
+    transform: scale(15);
+    opacity: 0;
+    visibility: hidden;
+   }
+ }
+
+ @keyframes replyHidden {
+   from {
+     opacity: 0;
+    transform: translateY(-100px);
+   }
+   to {
+    transform: none;
+   }
+ }
+ @keyframes chatBubble {
+   from {
+     opacity: 0;
+     transform: translateX(-500px);
+   }
+   to {
+     transform: none;
+   }
+ }
+ @keyframes chatBubbleReverse {
+   from {
+     opacity: 0;
+     transform: translateX(500px);
+   }
+   to {
+     transform: none;
+   }
+ }
