@@ -1,0 +1,40 @@
+.setting {
+  margin: 0px var(--horizontal-space);
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.setting > span {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 70px auto 30px;
+}
+.setting-list {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+.setting-list .list {
+  font-size: 26px;
+  display: flex;
+}
+.setting-list .list i {
+  margin-right: 20px;
+}
+.setting-list .list__sub {
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 20px;
+  opacity: .4;
+}
+
+.setting-list .badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transform: scale(.7);
+  margin-left: 8px;
+}

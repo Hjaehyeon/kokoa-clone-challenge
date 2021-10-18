@@ -1,0 +1,15 @@
+.header-line {
+  margin: 70px var(--horizontal-space) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: var(--line);
+}
+.header-line span {
+  font-size: 32px;
+  font-weight: 600;
+}
+.header-line__icon {
+  font-size: 20px;
+}
